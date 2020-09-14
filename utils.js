@@ -4,8 +4,8 @@ exports.lowerBound = (numWins, numGames) => {
   }
   const winRate = numWins / numGames;
   return Math.max(
-    // 1.96 for 95% confidence 1.645 for 90% confidence
-    winRate - 1.645 * Math.sqrt((winRate * (1 - winRate)) / numGames),
+    // 1.96 for 95% confidence 1.645 for 90% confidence 1.28 for 80% confidence
+    winRate - 1.28 * Math.sqrt((winRate * (1 - winRate)) / numGames),
     0
   );
 };
