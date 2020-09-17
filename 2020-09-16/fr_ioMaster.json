@@ -1,0 +1,276 @@
+[
+  {
+    "regions": [
+      "DE",
+      "NX"
+    ],
+    "playRate": 1.2,
+    "matchesCollected": 3,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "IO",
+      "SI"
+    ],
+    "playRate": 0.8,
+    "matchesCollected": 2,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "PZ"
+    ],
+    "playRate": 0.4,
+    "matchesCollected": 1,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "SI"
+    ],
+    "playRate": 0.4,
+    "matchesCollected": 1,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "FR"
+    ],
+    "playRate": 1.2,
+    "matchesCollected": 3,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "MT"
+    ],
+    "playRate": 2.3,
+    "matchesCollected": 6,
+    "matchesWin": 5
+  },
+  {
+    "regions": [
+      "MT",
+      "NX"
+    ],
+    "playRate": 3.5,
+    "matchesCollected": 9,
+    "matchesWin": 6
+  },
+  {
+    "regions": [
+      "DE",
+      "FR"
+    ],
+    "playRate": 0.8,
+    "matchesCollected": 2,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "IO",
+      "PZ"
+    ],
+    "playRate": 3.5,
+    "matchesCollected": 9,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "IO",
+      "NX"
+    ],
+    "playRate": 0.8,
+    "matchesCollected": 2,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "FR",
+      "PZ"
+    ],
+    "playRate": 0.8,
+    "matchesCollected": 2,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "PZ",
+      "SI"
+    ],
+    "playRate": 1.5,
+    "matchesCollected": 4,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "NX",
+      "SI"
+    ],
+    "playRate": 2.7,
+    "matchesCollected": 7,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "MT",
+      "SI"
+    ],
+    "playRate": 11.6,
+    "matchesCollected": 30,
+    "matchesWin": 5
+  },
+  {
+    "regions": [
+      "BW",
+      "FR"
+    ],
+    "playRate": 6.2,
+    "matchesCollected": 16,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "DE"
+    ],
+    "playRate": 1.5,
+    "matchesCollected": 4,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "BW",
+      "IO"
+    ],
+    "playRate": 1.5,
+    "matchesCollected": 4,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "BW",
+      "PZ"
+    ],
+    "playRate": 3.1,
+    "matchesCollected": 8,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "DE",
+      "IO"
+    ],
+    "playRate": 7.3,
+    "matchesCollected": 19,
+    "matchesWin": 5
+  },
+  {
+    "regions": [
+      "BW",
+      "SI"
+    ],
+    "playRate": 4.2,
+    "matchesCollected": 11,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "BW",
+      "NX"
+    ],
+    "playRate": 13.5,
+    "matchesCollected": 35,
+    "matchesWin": 10
+  },
+  {
+    "regions": [
+      "BW",
+      "DE"
+    ],
+    "playRate": 10,
+    "matchesCollected": 26,
+    "matchesWin": 8
+  },
+  {
+    "regions": [
+      "IO",
+      "MT"
+    ],
+    "playRate": 7.3,
+    "matchesCollected": 19,
+    "matchesWin": 6
+  },
+  {
+    "regions": [
+      "NX",
+      "PZ"
+    ],
+    "playRate": 6.6,
+    "matchesCollected": 17,
+    "matchesWin": 6
+  },
+  {
+    "regions": [
+      "FR",
+      "MT"
+    ],
+    "playRate": 17.4,
+    "matchesCollected": 45,
+    "matchesWin": 17
+  },
+  {
+    "regions": [
+      "MT",
+      "PZ"
+    ],
+    "playRate": 5,
+    "matchesCollected": 13,
+    "matchesWin": 5
+  },
+  {
+    "regions": [
+      "DE",
+      "MT"
+    ],
+    "playRate": 18.1,
+    "matchesCollected": 47,
+    "matchesWin": 21
+  },
+  {
+    "regions": [
+      "FR",
+      "NX"
+    ],
+    "playRate": 3.1,
+    "matchesCollected": 8,
+    "matchesWin": 4
+  },
+  {
+    "regions": [
+      "BW",
+      "MT"
+    ],
+    "playRate": 0.8,
+    "matchesCollected": 2,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "FR",
+      "SI"
+    ],
+    "playRate": 15.4,
+    "matchesCollected": 40,
+    "matchesWin": 20
+  },
+  {
+    "regions": [
+      "DE",
+      "SI"
+    ],
+    "playRate": 0.8,
+    "matchesCollected": 2,
+    "matchesWin": 1
+  }
+]
