@@ -9,6 +9,10 @@
   "author": "coltonw@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "crawler": "^1.2.2"
+    "crawler": "^1.2.2",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0"
   }
 }
