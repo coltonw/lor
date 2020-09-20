@@ -1,4 +1,4 @@
-const { intersection } = require("lodash");
+const { intersection, reverse } = require("lodash");
 const { deckName } = require("./utils");
 const getMatchupInfo = require("./getMatchupInfo");
 const getRegionSpread = require("./getRegionSpread");
@@ -47,17 +47,35 @@ for (let i = 0; i < entries.length; i++) {
 
 // console.dir(possibleLineups);
 
-const calcWinChanceAfterBan = (lineup, opponent) => {
-  const oddsGame1 = matchupInfo[lineup[0]][opponent[0]][LB_OR_AVG];
-  const oddsGame2 = matchupInfo[lineup[0]][opponent[1]][LB_OR_AVG];
-  const oddsGame3 = matchupInfo[lineup[1]][opponent[1]][LB_OR_AVG];
+const calcSpecificOrderWinRate = (lineup, opponent) => {
+  const oddsWin00 = matchupInfo[lineup[0]][opponent[0]][LB_OR_AVG];
+  const oddsWin10 = matchupInfo[lineup[1]][opponent[0]][LB_OR_AVG];
+  const oddsLose10 = 1 - oddsWin10;
+  const oddsWin11 = matchupInfo[lineup[1]][opponent[1]][LB_OR_AVG];
+  const oddsLose00 = 1 - oddsWin00;
+  const oddsWin01 = matchupInfo[lineup[0]][opponent[1]][LB_OR_AVG];
 
   return (
-    oddsGame1 * oddsGame2 * oddsGame3 +
-    oddsGame1 * oddsGame2 * (1 - oddsGame3) +
-    oddsGame1 * (1 - oddsGame2) * oddsGame3 +
-    (1 - oddsGame1) * oddsGame2 * oddsGame3
+    oddsWin00 * oddsWin10 + oddsWin00 * oddsLose10 * oddsWin11 + oddsLose00 * oddsWin01 * oddsWin11
   );
+}
+
+const calcWinChanceAfterBan = (lineup, opponent) => {
+  let lead = null;
+  let highestLowestWinRate = 0;
+  [lineup, reverse(lineup)].forEach((l) => {
+    let lowestWinRate = 1;
+    [opponent, reverse(opponent)].forEach((o) => {
+      const winRate = calcSpecificOrderWinRate(l, o);
+      lowestWinRate = Math.min(lowestWinRate, winRate);
+    });
+    if (lowestWinRate > highestLowestWinRate) {
+      highestLowestWinRate = lowestWinRate;
+      lead = l[0];
+    }
+  });
+
+  return { winRate: highestLowestWinRate, lead }
 };
 
 const calcWinChance = (lineup, opponent) => {
@@ -75,24 +93,28 @@ const calcWinChance = (lineup, opponent) => {
 
   let winChance = 0;
   let winIndex = -1;
+  let lead = null;
 
   possibleO.forEach((o, index) => {
     let lowestWinChance = 1;
+    let lowestLead = null;
 
     // we want the worst opponent matchups since we assume opponents make good bans
     possibleL.forEach((l) => {
-      const innerWinChance = calcWinChanceAfterBan(l, o);
+      const { winRate: innerWinChance, lead: innerLead } = calcWinChanceAfterBan(l, o);
       if (innerWinChance < lowestWinChance) {
         lowestWinChance = innerWinChance;
+        lowestLead = innerLead;
       }
     });
     if (lowestWinChance > winChance) {
       winChance = lowestWinChance;
       winIndex = index;
+      lead = lowestLead;
     }
   });
 
-  return { winChance, ban: opponent[winIndex] };
+  return { winChance, ban: opponent[winIndex], lead };
 };
 
 // const myPossibleLineups = possibleLineups;
@@ -104,11 +126,12 @@ const results = myPossibleLineups
 
     // we want the worst opponent matchups since we assume opponents make good bans
     possibleLineups.forEach((o) => {
-      const { winChance, ban } = calcWinChance(l, o);
+      const { winChance, ban, lead } = calcWinChance(l, o);
       console.log(
         (winChance * 100).toFixed(2),
         `${l.map((d) => deckName[d])} vs ${o.map((d) => deckName[d])}`,
-        `Ban: ${deckName[ban]}`
+        `Ban: ${deckName[ban]}`,
+        `Lead: ${deckName[lead]}`
       );
       totalWinChance += winChance;
       if (winChance < lowestWinChance) {
