@@ -1,0 +1,260 @@
+[
+  {
+    "regions": [
+      "SI"
+    ],
+    "playRate": 14.3,
+    "matchesCollected": 1,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "BW",
+      "MT"
+    ],
+    "playRate": 42.900002,
+    "matchesCollected": 3,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "FR",
+      "PZ"
+    ],
+    "playRate": 42.900002,
+    "matchesCollected": 3,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "DE",
+      "SI"
+    ],
+    "playRate": 28.6,
+    "matchesCollected": 2,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "FR",
+      "IO"
+    ],
+    "playRate": 42.900002,
+    "matchesCollected": 3,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "MT"
+    ],
+    "playRate": 14.3,
+    "matchesCollected": 1,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "IO",
+      "NX"
+    ],
+    "playRate": 42.900002,
+    "matchesCollected": 3,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "DE",
+      "IO"
+    ],
+    "playRate": 871.400024,
+    "matchesCollected": 61,
+    "matchesWin": 8
+  },
+  {
+    "regions": [
+      "BW",
+      "FR"
+    ],
+    "playRate": 328.600006,
+    "matchesCollected": 23,
+    "matchesWin": 4
+  },
+  {
+    "regions": [
+      "MT",
+      "NX"
+    ],
+    "playRate": 142.899994,
+    "matchesCollected": 10,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "NX",
+      "SI"
+    ],
+    "playRate": 485.700012,
+    "matchesCollected": 34,
+    "matchesWin": 7
+  },
+  {
+    "regions": [
+      "NX",
+      "PZ"
+    ],
+    "playRate": 528.599976,
+    "matchesCollected": 37,
+    "matchesWin": 8
+  },
+  {
+    "regions": [
+      "DE"
+    ],
+    "playRate": 128.600006,
+    "matchesCollected": 9,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "IO",
+      "PZ"
+    ],
+    "playRate": 128.600006,
+    "matchesCollected": 9,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "BW",
+      "DE"
+    ],
+    "playRate": 785.700012,
+    "matchesCollected": 55,
+    "matchesWin": 14
+  },
+  {
+    "regions": [
+      "MT",
+      "SI"
+    ],
+    "playRate": 785.700012,
+    "matchesCollected": 55,
+    "matchesWin": 14
+  },
+  {
+    "regions": [
+      "IO",
+      "MT"
+    ],
+    "playRate": 342.899994,
+    "matchesCollected": 24,
+    "matchesWin": 7
+  },
+  {
+    "regions": [
+      "FR",
+      "NX"
+    ],
+    "playRate": 342.899994,
+    "matchesCollected": 24,
+    "matchesWin": 7
+  },
+  {
+    "regions": [
+      "BW",
+      "NX"
+    ],
+    "playRate": 700,
+    "matchesCollected": 49,
+    "matchesWin": 15
+  },
+  {
+    "regions": [
+      "DE",
+      "NX"
+    ],
+    "playRate": 42.900002,
+    "matchesCollected": 3,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "FR",
+      "MT"
+    ],
+    "playRate": 614.299988,
+    "matchesCollected": 43,
+    "matchesWin": 18
+  },
+  {
+    "regions": [
+      "DE",
+      "MT"
+    ],
+    "playRate": 742.900024,
+    "matchesCollected": 52,
+    "matchesWin": 22
+  },
+  {
+    "regions": [
+      "BW",
+      "PZ"
+    ],
+    "playRate": 100,
+    "matchesCollected": 7,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "FR",
+      "SI"
+    ],
+    "playRate": 771.400024,
+    "matchesCollected": 54,
+    "matchesWin": 24
+  },
+  {
+    "regions": [
+      "MT",
+      "PZ"
+    ],
+    "playRate": 157.100006,
+    "matchesCollected": 11,
+    "matchesWin": 5
+  },
+  {
+    "regions": [
+      "BW",
+      "SI"
+    ],
+    "playRate": 242.899994,
+    "matchesCollected": 17,
+    "matchesWin": 8
+  },
+  {
+    "regions": [
+      "DE",
+      "FR"
+    ],
+    "playRate": 57.099998,
+    "matchesCollected": 4,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "PZ",
+      "SI"
+    ],
+    "playRate": 57.099998,
+    "matchesCollected": 4,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "IO",
+      "SI"
+    ],
+    "playRate": 28.6,
+    "matchesCollected": 2,
+    "matchesWin": 1
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "regions": [
+      "IO"
+    ],
+    "playRate": 0.1,
+    "matchesCollected": 2,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "BW"
+    ],
+    "playRate": 0.1,
+    "matchesCollected": 3,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "PZ"
+    ],
+    "playRate": 0.1,
+    "matchesCollected": 3,
+    "matchesWin": 2
+  },
+  {
+    "regions": [
+      "FR",
+      "IO"
+    ],
+    "playRate": 0.7,
+    "matchesCollected": 16,
+    "matchesWin": 10
+  },
+  {
+    "regions": [
+      "IO",
+      "MT"
+    ],
+    "playRate": 6.5,
+    "matchesCollected": 151,
+    "matchesWin": 93
+  },
+  {
+    "regions": [
+      "FR"
+    ],
+    "playRate": 0.6,
+    "matchesCollected": 13,
+    "matchesWin": 8
+  },
+  {
+    "regions": [
+      "IO",
+      "NX"
+    ],
+    "playRate": 0.7,
+    "matchesCollected": 17,
+    "matchesWin": 10
+  },
+  {
+    "regions": [
+      "NX",
+      "PZ"
+    ],
+    "playRate": 6.6,
+    "matchesCollected": 155,
+    "matchesWin": 83
+  },
+  {
+    "regions": [
+      "DE",
+      "IO"
+    ],
+    "playRate": 13.9,
+    "matchesCollected": 325,
+    "matchesWin": 172
+  },
+  {
+    "regions": [
+      "BW",
+      "SI"
+    ],
+    "playRate": 5.5,
+    "matchesCollected": 128,
+    "matchesWin": 67
+  },
+  {
+    "regions": [
+      "DE",
+      "FR"
+    ],
+    "playRate": 1.1,
+    "matchesCollected": 25,
+    "matchesWin": 13
+  },
+  {
+    "regions": [
+      "DE",
+      "PZ"
+    ],
+    "playRate": 0,
+    "matchesCollected": 1,
+    "matchesWin": 0
+  },
+  {
+    "regions": [
+      "BW",
+      "MT"
+    ],
+    "playRate": 2.7,
+    "matchesCollected": 64,
+    "matchesWin": 21
+  },
+  {
+    "regions": [
+      "BW",
+      "IO"
+    ],
+    "playRate": 0.1,
+    "matchesCollected": 3,
+    "matchesWin": 1
+  },
+  {
+    "regions": [
+      "BW",
+      "PZ"
+    ],
+    "playRate": 4.2,
+    "matchesCollected": 99,
+    "matchesWin": 35
+  },
+  {
+    "regions": [
+      "BW",
+      "FR"
+    ],
+    "playRate": 4.9,
+    "matchesCollected": 115,
+    "matchesWin": 42
+  },
+  {
+    "regions": [
+      "FR",
+      "NX"
+    ],
+    "playRate": 5.3,
+    "matchesCollected": 125,
+    "matchesWin": 47
+  },
+  {
+    "regions": [
+      "BW",
+      "NX"
+    ],
+    "playRate": 16.700001,
+    "matchesCollected": 390,
+    "matchesWin": 151
+  },
+  {
+    "regions": [
+      "DE"
+    ],
+    "playRate": 2.7,
+    "matchesCollected": 64,
+    "matchesWin": 27
+  },
+  {
+    "regions": [
+      "MT"
+    ],
+    "playRate": 2.9,
+    "matchesCollected": 68,
+    "matchesWin": 29
+  },
+  {
+    "regions": [
+      "IO",
+      "PZ"
+    ],
+    "playRate": 4.1,
+    "matchesCollected": 96,
+    "matchesWin": 41
+  },
+  {
+    "regions": [
+      "DE",
+      "NX"
+    ],
+    "playRate": 0.3,
+    "matchesCollected": 7,
+    "matchesWin": 3
+  },
+  {
+    "regions": [
+      "DE",
+      "MT"
+    ],
+    "playRate": 15.9,
+    "matchesCollected": 371,
+    "matchesWin": 160
+  },
+  {
+    "regions": [
+      "SI"
+    ],
+    "playRate": 2,
+    "matchesCollected": 46,
+    "matchesWin": 20
+  },
+  {
+    "regions": [
+      "BW",
+      "DE"
+    ],
+    "playRate": 8.4,
+    "matchesCollected": 197,
+    "matchesWin": 86
+  },
+  {
+    "regions": [
+      "FR",
+      "SI"
+    ],
+    "playRate": 12.4,
+    "matchesCollected": 289,
+    "matchesWin": 127
+  },
+  {
+    "regions": [
+      "MT",
+      "SI"
+    ],
+    "playRate": 14.9,
+    "matchesCollected": 348,
+    "matchesWin": 156
+  },
+  {
+    "regions": [
+      "MT",
+      "NX"
+    ],
+    "playRate": 2.5,
+    "matchesCollected": 58,
+    "matchesWin": 26
+  },
+  {
+    "regions": [
+      "NX",
+      "SI"
+    ],
+    "playRate": 6.4,
+    "matchesCollected": 149,
+    "matchesWin": 69
+  },
+  {
+    "regions": [
+      "FR",
+      "MT"
+    ],
+    "playRate": 19.700001,
+    "matchesCollected": 460,
+    "matchesWin": 215
+  },
+  {
+    "regions": [
+      "FR",
+      "PZ"
+    ],
+    "playRate": 0.9,
+    "matchesCollected": 21,
+    "matchesWin": 10
+  },
+  {
+    "regions": [
+      "IO",
+      "SI"
+    ],
+    "playRate": 1,
+    "matchesCollected": 23,
+    "matchesWin": 11
+  },
+  {
+    "regions": [
+      "PZ",
+      "SI"
+    ],
+    "playRate": 1.2,
+    "matchesCollected": 29,
+    "matchesWin": 14
+  },
+  {
+    "regions": [
+      "DE",
+      "SI"
+    ],
+    "playRate": 1.1,
+    "matchesCollected": 26,
+    "matchesWin": 13
+  },
+  {
+    "regions": [
+      "NX"
+    ],
+    "playRate": 0.1,
+    "matchesCollected": 2,
+    "matchesWin": 1
+  }
+]
