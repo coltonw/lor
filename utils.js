@@ -25,7 +25,7 @@ exports.deckName = {
   FR_SI: "Endure",
   DE_MT: "Targon / Demacia",
   BW_NX: "Swain OR Pirates",
-  DE_IO: "Lulu Demacia",
+  DE_IO: "Fiora Shen",
   IO_MT: "Lee Sin Targon",
   BW_DE: "Scout",
   BW_FR: "Sej / Gangplank",
@@ -36,6 +36,7 @@ exports.deckName = {
   NX_PZ: "Discard Aggro",
   IO_PZ: "Ez / Karma",
   BW_PZ: "Ez / TF",
+  IO_NX: "Lee Sin Draven",
 };
 
 exports.allRegions = ["BW", "FR", "IO", "PZ", "MT", "SI", "DE", "NX"];

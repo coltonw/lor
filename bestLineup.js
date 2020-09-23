@@ -7,8 +7,8 @@ const getRegionSpread = require("./getRegionSpread");
 const RANK = "overall";
 const META_CONSIDERED = 15;
 const PREV_INCLUDED_RATIO = 0;
-const PREV_FOLDER = "2020-09-11";
-const CUR_FOLDER = "2020-09-16";
+const PREV_FOLDER = "2020-09-20";
+const CUR_FOLDER = "2020-09-22";
 
 const LB_OR_AVG = "avg";
 
@@ -95,8 +95,8 @@ const calcWinChance = (lineup, opponent) => {
   return { winChance, ban: opponent[winIndex] };
 };
 
-// const myPossibleLineups = possibleLineups;
-const myPossibleLineups = [["BW_NX", "FR_SI", "DE_IO"]];
+const myPossibleLineups = possibleLineups;
+// const myPossibleLineups = [["BW_NX", "FR_SI", "DE_IO"]];
 const results = myPossibleLineups
   .map((l) => {
     let lowestWinChance = 1;
