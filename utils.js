@@ -26,11 +26,11 @@ exports.deckName = {
   DE_MT: "Targon / Demacia",
   BW_NX: "Swain OR Pirates",
   DE_IO: "Lulu Demacia",
-  IO_MT: "Stun OR Lee Sin",
+  IO_MT: "Lee Sin Targon",
   BW_DE: "Scout",
   BW_FR: "Sej / Gangplank",
   MT_PZ: "Ez Targon",
-  FR_NX: "Swain Behold",
+  FR_NX: "Ashe",
   NX_SI: "Spider Aggro",
   BW_SI: "Deep",
   NX_PZ: "Discard Aggro",
@@ -55,12 +55,12 @@ exports.regionSpread = {
   BW_SI: 4,
 };
 
-exports.tableLine = (region, lb, avg, padStart) => {
+exports.tableLine = (region, lb, avg, bayesian, padStart) => {
   return `${padStart ? "  " : ""}${(exports.deckName[region] || region).padEnd(
     padStart ? 18 : 20
   )}${((lb * 100).toFixed(1) + "").padStart(4)}%  ${(
-    (avg * 100).toFixed(1) + ""
-  ).padStart(4)}%\n`;
+    (bayesian * 100).toFixed(1) + ""
+  ).padStart(4)}%  ${((avg * 100).toFixed(1) + "").padStart(4)}%\n`;
 };
 
 exports.fileName = (regionName, rank) => {

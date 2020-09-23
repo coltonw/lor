@@ -2,6 +2,9 @@ const fs = require("fs");
 const path = require("path");
 const { regionName, allRegions, fileName, lowerBound } = require("./utils");
 
+const bayesianGames = 20;
+const baresianAverage = 0.4;
+
 module.exports = (
   curFolder,
   prevFolder,
@@ -18,17 +21,19 @@ module.exports = (
       const current = regionName(allRegions[i], allRegions[j]);
       matchupInfo[current] = matchupInfo[current] || {};
 
-      const prevMatchupData = JSON.parse(
-        fs.readFileSync(
-          path.join(__dirname, prevFolder, fileName(current, rank))
-        )
-      );
-      prevMatchupData.forEach(({ regions, matchesCollected, matchesWin }) => {
-        matchupInfo[current][regionName(...regions)] = {
-          prevWins: matchesWin,
-          prevTotal: matchesCollected,
-        };
-      });
+      if (prevFolder) {
+        const prevMatchupData = JSON.parse(
+          fs.readFileSync(
+            path.join(__dirname, prevFolder, fileName(current, rank))
+          )
+        );
+        prevMatchupData.forEach(({ regions, matchesCollected, matchesWin }) => {
+          matchupInfo[current][regionName(...regions)] = {
+            prevWins: matchesWin,
+            prevTotal: matchesCollected,
+          };
+        });
+      }
 
       const curMatchupData = JSON.parse(
         fs.readFileSync(
@@ -49,6 +54,9 @@ module.exports = (
         matchupInfo[current][regionName(...regions)] = {
           lb: lowerBound(newWins, newMatches),
           avg: newWins / (newMatches || 1),
+          bayesian:
+            (newWins + bayesianGames * baresianAverage) /
+            (newMatches + bayesianGames),
         };
       });
 
@@ -58,6 +66,7 @@ module.exports = (
         matchupInfo[current][current] = {
           lb: 0.5,
           avg: 0.5,
+          bayesian: 0.5,
         };
       }
     }

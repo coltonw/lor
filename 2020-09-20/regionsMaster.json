@@ -1,0 +1,330 @@
+[
+  {
+    "rank": 1,
+    "regions": [
+      "FR",
+      "PZ"
+    ],
+    "playRate": 0,
+    "cardsCode": "CIAAABIBAICAGAIDAEBACAYECIBACBAUGQBQCAIIBEIA",
+    "matchesCollected": 1,
+    "matchesWin": 1
+  },
+  {
+    "rank": 2,
+    "regions": [
+      "FR",
+      "MT"
+    ],
+    "playRate": 3.3,
+    "cardsCode": "CIAAAAYDAMEVIVYVAIBQCBQCAMAQCIIMCQ",
+    "matchesCollected": 139,
+    "matchesWin": 84
+  },
+  {
+    "rank": 3,
+    "regions": [
+      "PZ",
+      "SI"
+    ],
+    "playRate": 1.5,
+    "cardsCode": "CIAAAAQDAECSQNQBAUAQINA7DMTTA",
+    "matchesCollected": 62,
+    "matchesWin": 37
+  },
+  {
+    "rank": 4,
+    "regions": [
+      "BW",
+      "DE"
+    ],
+    "playRate": 4.9,
+    "cardsCode": "CIAAAAYBAIDBMBABAAER2FJHAMBAACIKA4",
+    "matchesCollected": 211,
+    "matchesWin": 124
+  },
+  {
+    "rank": 5,
+    "regions": [
+      "BW",
+      "NX"
+    ],
+    "playRate": 15.5,
+    "cardsCode": "CIAAAAYCAIBQGBABAEBQEBICAYEC2JRAHI",
+    "matchesCollected": 662,
+    "matchesWin": 388
+  },
+  {
+    "rank": 6,
+    "regions": [
+      "IO",
+      "MT"
+    ],
+    "playRate": 12.7,
+    "cardsCode": "CIAAAAYEAMESGKI3GMBQEAQGAMEQCAICGE",
+    "matchesCollected": 544,
+    "matchesWin": 313
+  },
+  {
+    "rank": 7,
+    "regions": [
+      "DE",
+      "MT"
+    ],
+    "playRate": 8.5,
+    "cardsCode": "CIAAAAYCAEABUDYBAIAACBIDBEOFIWDAK4",
+    "matchesCollected": 365,
+    "matchesWin": 210
+  },
+  {
+    "rank": 8,
+    "regions": [
+      "NX",
+      "PZ"
+    ],
+    "playRate": 1.9,
+    "cardsCode": "CIAAAAYDAECDIAJNAIAQGFBXAMBAGAIHBA",
+    "matchesCollected": 82,
+    "matchesWin": 47
+  },
+  {
+    "rank": 9,
+    "regions": [
+      "FR",
+      "NX"
+    ],
+    "playRate": 2.1,
+    "cardsCode": "CIAAAAQDAEBQIII7AUAQCCZJEYBRM",
+    "matchesCollected": 89,
+    "matchesWin": 51
+  },
+  {
+    "rank": 10,
+    "regions": [
+      "DE",
+      "NX"
+    ],
+    "playRate": 1.9,
+    "cardsCode": "CIAAAAQGAEABMHJGDIERKAQCAAEQU",
+    "matchesCollected": 80,
+    "matchesWin": 45
+  },
+  {
+    "rank": 11,
+    "regions": [
+      "DE",
+      "IO"
+    ],
+    "playRate": 5.8,
+    "cardsCode": "CIAAAAYCAEBDCIAEAEABUHIJEUBAEAAKAE",
+    "matchesCollected": 249,
+    "matchesWin": 139
+  },
+  {
+    "rank": 12,
+    "regions": [
+      "MT",
+      "PZ"
+    ],
+    "playRate": 4.7,
+    "cardsCode": "CIAAAAQEAMEWAIZTCMCACBBUDM4BA",
+    "matchesCollected": 200,
+    "matchesWin": 111
+  },
+  {
+    "rank": 13,
+    "regions": [
+      "BW",
+      "FR"
+    ],
+    "playRate": 4.7,
+    "cardsCode": "CIAAAAQBAIAQEBYCAYEAWLI4HICSE",
+    "matchesCollected": 202,
+    "matchesWin": 111
+  },
+  {
+    "rank": 14,
+    "regions": [
+      "FR",
+      "SI"
+    ],
+    "playRate": 8.6,
+    "cardsCode": "CIAAAAYBAEAQYAIDAUBAMAIFFAARSMI5FM",
+    "matchesCollected": 368,
+    "matchesWin": 200
+  },
+  {
+    "rank": 15,
+    "regions": [
+      "MT",
+      "SI"
+    ],
+    "playRate": 3.3,
+    "cardsCode": "CIAAAAQDAMCQEAYEAUBQSI2YHBEV4",
+    "matchesCollected": 141,
+    "matchesWin": 76
+  },
+  {
+    "rank": 16,
+    "regions": [
+      "BW"
+    ],
+    "playRate": 0.2,
+    "cardsCode": "CIAAAAIIAIDAKIB4HI3QQLI4",
+    "matchesCollected": 10,
+    "matchesWin": 5
+  },
+  {
+    "rank": 17,
+    "regions": [
+      "DE",
+      "PZ"
+    ],
+    "playRate": 0.8,
+    "cardsCode": "CIAAAAQEAEABUIJKEACACBAQGQNTQ",
+    "matchesCollected": 36,
+    "matchesWin": 18
+  },
+  {
+    "rank": 18,
+    "regions": [
+      "SI"
+    ],
+    "playRate": 0.3,
+    "cardsCode": "CIAAAAQDAMCQMDIEAUAQKDQQFY4CA",
+    "matchesCollected": 12,
+    "matchesWin": 6
+  },
+  {
+    "rank": 19,
+    "regions": [
+      "BW",
+      "SI"
+    ],
+    "playRate": 3.8,
+    "cardsCode": "CIAAAAYBAECSQAQCAUEAUBICAYXTKOBHEU",
+    "matchesCollected": 161,
+    "matchesWin": 80
+  },
+  {
+    "rank": 20,
+    "regions": [
+      "BW",
+      "PZ"
+    ],
+    "playRate": 2.1,
+    "cardsCode": "CIAAAAYEAIDDOFA2HIAQGBASAMAQIHBNAE",
+    "matchesCollected": 91,
+    "matchesWin": 44
+  },
+  {
+    "rank": 21,
+    "regions": [
+      "DE",
+      "SI"
+    ],
+    "playRate": 2.4,
+    "cardsCode": "CIAAAAQHAEABUJYMCQRACBABAIAAU",
+    "matchesCollected": 101,
+    "matchesWin": 48
+  },
+  {
+    "rank": 22,
+    "regions": [
+      "BW",
+      "MT"
+    ],
+    "playRate": 0.4,
+    "cardsCode": "CIAAAAQEAMESGWC6F4CAEBRGFUKD2",
+    "matchesCollected": 17,
+    "matchesWin": 8
+  },
+  {
+    "rank": 23,
+    "regions": [
+      "IO",
+      "PZ"
+    ],
+    "playRate": 5.1,
+    "cardsCode": "CIAAAAYEAECDIGZYCABQEAQJAUDACAICGE",
+    "matchesCollected": 217,
+    "matchesWin": 102
+  },
+  {
+    "rank": 24,
+    "regions": [
+      "FR",
+      "IO"
+    ],
+    "playRate": 2,
+    "cardsCode": "CIAAABABAMAQEAQBAECCABACAIEAMCIDAEAQEMI",
+    "matchesCollected": 87,
+    "matchesWin": 40
+  },
+  {
+    "rank": 25,
+    "regions": [
+      "DE",
+      "FR"
+    ],
+    "playRate": 0.5,
+    "cardsCode": "CIAAABACAEABKGQCAMAQEBQDAEAR6MADAEBACBQ",
+    "matchesCollected": 20,
+    "matchesWin": 8
+  },
+  {
+    "rank": 26,
+    "regions": [
+      "IO",
+      "NX"
+    ],
+    "playRate": 1.9,
+    "cardsCode": "CIAAAAYCAEBS4JADAIBAKCAJAMAQEMIPBA",
+    "matchesCollected": 80,
+    "matchesWin": 31
+  },
+  {
+    "rank": 27,
+    "regions": [
+      "NX",
+      "SI"
+    ],
+    "playRate": 0.4,
+    "cardsCode": "CIAAABABAMCQIAQBAU2TQAICAMBQIAIDB4BCQNY",
+    "matchesCollected": 16,
+    "matchesWin": 6
+  },
+  {
+    "rank": 28,
+    "regions": [
+      "BW",
+      "IO"
+    ],
+    "playRate": 0.5,
+    "cardsCode": "CIAAAAQDAIBAMCQJAUBAMJROHUHAQ",
+    "matchesCollected": 22,
+    "matchesWin": 8
+  },
+  {
+    "rank": 29,
+    "regions": [
+      "IO",
+      "SI"
+    ],
+    "playRate": 0.2,
+    "cardsCode": "CIAAAAQFAECSUFJIFMNAGAYFAIHAI",
+    "matchesCollected": 7,
+    "matchesWin": 1
+  },
+  {
+    "rank": 30,
+    "regions": [
+      "MT",
+      "NX"
+    ],
+    "playRate": 0,
+    "cardsCode": "CIAAAAYCAIBQICIBAEBQMBIDBERVINQ4DI",
+    "matchesCollected": 2,
+    "matchesWin": 0
+  }
+]
